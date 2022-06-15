@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="learn">
+    <meta name="description" content="Hexo Theme Keep">
+    <meta name="author" content="寻踪">
+    
+    <title>
+        
+            概述 |
+        
+        learn code
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <link rel="shortcut icon" href="/images/bg.svg">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/css/font-awesome.min.css">
+    <script id="hexo-configurations">
+    let KEEP = window.KEEP || {};
+    KEEP.hexo_config = {"hostname":"2124159894.github.io","root":"/","language":"zh-CN"};
+    KEEP.theme_config = {"toc":{"enable":true,"number":false,"expand_all":true,"init_open":false},"style":{"primary_color":"#0066CC","avatar":"/images/avatar.jpg","favicon":"/images/bg.svg","article_img_align":"left","left_side_width":"260px","content_max_width":"920px","hover":{"shadow":false,"scale":true},"first_screen":{"enable":true,"background_img":"/images/bg.svg","description":"Keep writing and Keep learning."},"scroll":{"progress_bar":{"enable":false},"percent":{"enable":true}}},"local_search":{"enable":false,"preload":false},"code_copy":{"enable":true,"style":"default"},"pjax":{"enable":false},"lazyload":{"enable":true},"version":"3.4.5"};
+    KEEP.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
+  </script>
+<meta name="generator" content="Hexo 6.2.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="page-main-content">
+
+        <div class="page-main-content-top">
+            <header class="header-wrapper">
+
+    <div class="header-content">
+        <div class="left">
+            
+            <a class="logo-title" href="/">
+                learn code
+            </a>
+        </div>
+
+        <div class="right">
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/"
+                            >
+                                首页
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/archives"
+                            >
+                                归档
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/categories"
+                            >
+                                分类
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/tags"
+                            >
+                                标签
+                            </a>
+                        </li>
+                    
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/">首页</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/archives">归档</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/categories">分类</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/tags">标签</a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle">
+
+            <div class="main-content">
+
+                
+                    <div class="fade-in-down-animation">
+    <div class="article-content-container">
+
+        <div class="article-title">
+            <span class="title-hover-animation">概述</span>
+        </div>
+
+        
+            <div class="article-header">
+                <div class="avatar">
+                    <img src="/images/avatar.jpg">
+                </div>
+                <div class="info">
+                    <div class="author">
+                        <span class="name">寻踪</span>
+                        
+                    </div>
+                    <div class="meta-info">
+                        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fas fa-edit"></i>&nbsp;
+        <span class="pc">2022-06-14 13:33:51</span>
+        <span class="mobile">2022-06-14 13:33</span>
+    </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fas fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/web/">web</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+        <span class="article-wordcount article-meta-item">
+            <i class="fas fa-file-word"></i>&nbsp;<span>3k 字</span>
+        </span>
+    
+    
+        <span class="article-min2read article-meta-item">
+            <i class="fas fa-clock"></i>&nbsp;<span>12 分钟</span>
+        </span>
+    
+    
+</div>
+
+                    </div>
+                </div>
+            </div>
+        
+
+        <div class="article-content markdown-body">
+            <h1 id="一"><a href="#一" class="headerlink" title="一"></a>一</h1><p>1.JDBC技术实现数据库编程的开发步骤</p>
+<p>(E)导入驱动jar包：mysql-connector-java-5.1.48.jar</p>
+<p>(G)注册驱动：Class.forName(“com.mysql.jadb.Driver”);</p>
+<p>(J)获取链接：DriverManager.getConnection(url,username,password);</p>
+<p>(M)定义SQl语句，获取执行SQL对象，执行SQL</p>
+<p>(N)处理返回结果</p>
+<p>(O)释放资源</p>
+<hr>
+<p>2.实现文件上传应用的过程</p>
+<p>(E)表单页面的method属性设置为post方式，enctype属性设置为：multipart&#x2F;form-data，添加文件的input标签类型设置为file类型</p>
+<p>(G)创建工厂确定临时文件上传条件，确定临时存放的位置</p>
+<p>(J)获得核心处理类：创建fileupload组件</p>
+<p>(M)遍历集合：判断是否为普通字段，获得字段名和字段值</p>
+<p>(O)上传得文件路径：文件名唯一，选择目录，获取文件流</p>
+<hr>
+<h1 id="二"><a href="#二" class="headerlink" title="二"></a>二</h1><p>1.快速创建过滤器得过程</p>
+<p>(A)定义类，实现Filter接口，并重写其所有方法</p>
+<p>(C)配置Filter拦截资源得路径：在类上定义@WebFilter注释</p>
+<p>(H)在doFilter方法中执行需要过滤得代码</p>
+<p>(K)放行：chain.doFilter(request,response);</p>
+<hr>
+<p>2.Servlet响应客户请求的过程</p>
+<p>(A)客户端发送请求至服务器</p>
+<p>(C)Servlet生成相应内容并将其传给服务器</p>
+<p>(K)服务器将响应给客户端</p>
+<hr>
+<h1 id="三"><a href="#三" class="headerlink" title="三"></a>三</h1><p>1.数据库连接池C3P0开发步骤</p>
+<p>(B)导入驱动jar包：c3p0-0.9.5.5.jar，mchang-commoms-java-0.2.19.jar</p>
+<p>(D)定义配置文件c3p0.prorerties或者c3p0-config.xml</p>
+<p>(F)将配置文件放在src目录下</p>
+<p>(I)创建核心对象，数据连接池对象CombopooledDataSource</p>
+<p>(L)获取连接：getConnection</p>
+<hr>
+<p>2.数据库连接池Driud开发步骤</p>
+<p>(B)导入驱动jar包：druid-1.1.12.jar，mysql-connector-java-5.1.48.jar</p>
+<p>(D)定义配置文件druid.properties</p>
+<p>(F)加载配置文件</p>
+<p>(I)获取数据库连接池对象DruidDataSourceFactory.creatDateSource()</p>
+<p>(L)获取连接：getConnection</p>
+<hr>
+<h1 id="四"><a href="#四" class="headerlink" title="四"></a>四</h1><p>1.已经编写好了listener.MyListener类作为监听器，相应注册监听器如下：</p>
+<pre><code class="html">&lt;listener&gt;
+    &lt;listener-class&gt;
+        listener.MyListener
+    &lt;/listener-class&gt;
+&lt;/listener&gt;
+</code></pre>
+<hr>
+<p>2.假设在chapter包下已经编写好了UploadLIstener类作为监听器处理上传业务，注册监听器代码如下</p>
+<pre><code class="html">&lt;listener&gt;
+    &lt;listener-class&gt;
+        chapter.UploadListener
+    &lt;/listener-class&gt;
+&lt;/listener&gt;
+</code></pre>
+<hr>
+<h1 id="五"><a href="#五" class="headerlink" title="五"></a>五</h1><p>1.对编码过滤器进行配置，假设已经在filter包下创建了EncodingFilter类作为过滤器，对所有路径就进行过滤</p>
+<pre><code class="html">&lt;filter&gt;
+    &lt;filter-name&gt;
+        encodingFilter
+    &lt;/filter-name&gt;
+    &lt;filter-class&gt;
+        filter.EncodingFilter
+    &lt;/filter-class&gt;
+&lt;/filter&gt;
+&lt;filter-mapping&gt;
+    &lt;filter-name&gt;
+        encodingFilter
+    &lt;/filter-name&gt;
+    &lt;url-pattren&gt;
+        /*
+    &lt;/url-pattren&gt;
+&lt;/filter-mapping&gt;
+</code></pre>
+<hr>
+<h1 id="六"><a href="#六" class="headerlink" title="六"></a>六</h1><p>1.对用户权限过滤器进行配置，假设已经创建了filter.AdminFilter类作为过滤器，对&#x2F;admin下的所有路径就进行过滤，<filter-mapping>部分的代码如下</p>
+<pre><code class="html">&lt;filter&gt;
+    &lt;filter-name&gt;adminFilter&lt;/filter-name&gt;
+    &lt;filter-class&gt;filter.AdminFilter&lt;/filter-class&gt;
+&lt;/filter&gt;
+&lt;filter-mapping&gt;
+    &lt;filter-name&gt;adminFilter&lt;/filter-name&gt;
+    &lt;url-pattern&gt;/admin/*&lt;/url-pattern&gt;
+&lt;/filter-mapping&gt;
+</code></pre>
+<hr>
+<h1 id="七"><a href="#七" class="headerlink" title="七"></a>七</h1><p>1.对UserController控制器进行配置，要求用“&#x2F;user”路径就能访问</p>
+<pre><code class="html">&lt;servlet&gt;
+    &lt;servlet-name&gt;user&lt;/servlet-name&gt;
+    &lt;servlet-class&gt;business.controller.impl.UserController&lt;/servlet-class&gt;
+&lt;/servlet&gt;
+&lt;servlet-mapping&gt;
+    &lt;servlet-name&gt;user&lt;/servlet-name&gt;
+    &lt;url-pattern&gt;/user&lt;/url-pattern&gt;
+&lt;/servlet-mapping&gt;
+</code></pre>
+<hr>
+<h1 id="八"><a href="#八" class="headerlink" title="八"></a>八</h1><p>1.对BookServlet进行配置，要求用“&#x2F;book”路径就能访问</p>
+<pre><code class="html">&lt;servlet&gt;
+    &lt;servlet-name&gt;book&lt;/servlet-name&gt;
+    &lt;servlet-class&gt;business.controller.impl.BookServlet&lt;/servlet-class&gt;
+&lt;/servlet&gt;
+&lt;servlet-mapping&gt;
+    &lt;servlet-name&gt;book&lt;/servlet-name&gt;
+    &lt;url-pattern&gt;/book&lt;/url-pattern&gt;
+&lt;/servlet-mapping&gt;
+</code></pre>
+<hr>
+<h1 id="九"><a href="#九" class="headerlink" title="九"></a>九</h1><p>1.传统标签需要实现Tag接口，简单标签需要实现SimpleTag接口</p>
+<blockquote>
+<p>在JSP2.0之后，所有的标签都需要实现Tag接口，我们称这样的标签为简单标签</p>
+<p>所有的标签处理器类都需要实现Tag接口</p>
+</blockquote>
+<hr>
+<p>2.&lt;c:set&gt;标签用于设置域对象属性的值，或者设置对象中用于存储数据的Map对象、JavaBean对象属性的值。</p>
+<blockquote>
+<p>&lt;c:set&gt;标签用于设置域对象属性的值，<code>而不能</code>设置对象中用于存储数据的Map对象、JavaBean对象属性的值。</p>
+</blockquote>
+<hr>
+<p>3.在&lt;c:out&gt;标签中，value属性用于指定输出的文本内容，</p>
+<blockquote>
+<p>escapeXml属性指定输出的文本内容。</p>
+</blockquote>
+<hr>
+<p>4.国际化是为了将应用程序发布在多个地区（locale）而进行准备的过程。</p>
+<hr>
+<p>5.在开发国际化Web应用时，properties资源文本需要是Unicode编码。</p>
+<hr>
+<h1 id="十"><a href="#十" class="headerlink" title="十"></a>十</h1><p>1.在应用程序中对CLOB和BLOB类型数据的操作，必须使用PreparedStatement对象完成。</p>
+<hr>
+<p>2.<code>CLOB可用于存储一张图片。</code>CLOB用于存储大文本数据</p>
+<hr>
+<p>3.习惯上把实现了javax.sql.DataSource接口的类称为数据源。</p>
+<hr>
+<p>4.数据库连接池，可有效的解决频繁创建和断开Connection对象的操作，从而提高数据库的访问效率。</p>
+<hr>
+<p>5.DBUtils类的commitAndCloseQuietly()方法用来提交连接，然后关闭连接，并且在关闭连接时不抛出SQL异常。</p>
+<hr>
+<p>6.BeanHandler、BeanListHandler和BeanMapHandler类都可以将结果集中的数据封装到对应的JavaBean实例中。</p>
+<hr>
+<p>7.ArrayHandler可以将把结果集中的第一行数据转成对象数组。</p>
+<hr>
+<p>8.<code>Servlet事件监听器只能监听Web应用程序ServletContext、HttpSession和ServletRequest等域对象的创建和销毁过程。</code>还可以监听ServletContext、HttpSession和ServletRequest等域对象属性的修改，以及感知绑定到HttpSession域中某个对象的状态。</p>
+<hr>
+<p>9.Servlet事件监听器就是一个实现特定接口的Java程序。</p>
+<hr>
+<h1 id="十一"><a href="#十一" class="headerlink" title="十一"></a>十一</h1><p>1.<code>JDBC的全程是Java数据库连接，它是一套用于执行HTML语句的Java API。</code>JDBC是一套用于执行SQL语句的Java API。</p>
+<hr>
+<p>2.JDBC驱动器API是由SUN公司负责制定，而JDBC驱动器是由数据库厂商创建。</p>
+<p>JDBC驱动器API：由SUN公司负责制定，其中最主要的接口是java.sql.Druver接口。</p>
+<p>JDBC驱动器：它是一种数据库驱动，由数据库厂商创建，也成为JDBC驱动程序。</p>
+<hr>
+<p>3.Driver接口时所有JDBC驱动程序必须实现的接口，该接口专门提供给数据库厂商使用。<code>Driver接口时所有JDBC驱动程序必须实现的接口，该接口专门提供给应用程序开发人员使用。</code></p>
+<hr>
+<p>4.<code>使用DriverManager.registerDriver进行驱动注册时，将导致数据库驱动被注册1次。</code>使用DriverManager.registerDriver进行驱动注册时，会导致驱动被注册2次。</p>
+<hr>
+<p>5.<code>回收数据库资源，关闭数据库连接，释放资源时没有先后顺序，可以随意关闭。</code>关闭资源时，有先后顺序，应当先关ResultSet，再关Statement，最后关Connection。</p>
+<hr>
+<p>6.Statement接口的executeUpdate(String sql)返回值时int，它表示数据库库中受该SQL语句影响的记录的数目。</p>
+<hr>
+<h1 id="十二"><a href="#十二" class="headerlink" title="十二"></a>十二</h1><p>1.属于Servlet事件监听器的是</p>
+<p>用于监听域对象创建和销毁的事件监听器</p>
+<p>用于监听域对象属性增加和删除的事件监听器</p>
+<p>用于监听绑定到HttpSession域中某个对象状态的事件监听器</p>
+<hr>
+<p>2.在监听Servlet事件的过程中会涉及几个重要组成部分，包括事件、事件源、事件监听器、事件处理器</p>
+<hr>
+<p>3.下面关于EL的empty运算符的描述，正确的是：</p>
+<p>${empty var}，当var变量不存在时，EL表达式返回true</p>
+<p>${empty var}，当var变量为null时，EL表达式返回true</p>
+<p>${empty var}，当var代表集合时，集合中没有任何元素，返回true</p>
+<hr>
+<p>4.下面EL表达式中，用于访问users数组第一个元素的是：${user[“0”]}，${user[0]}，${user[‘0’]}</p>
+<hr>
+<h1 id="十三"><a href="#十三" class="headerlink" title="十三"></a>十三</h1><p>1.属于ThreadLocal类中提供的方法有提供get()方法、提供set(Object obj)方法</p>
+<hr>
+<p>2.属于QueryRunner类构造器的选项是QueryRunner()、QueryRunner(avax.sql.DataSource DataSource)</p>
+<hr>
+<p>3.关于executeUpdate(String sql)方法，说法正确的是可以执行insert语句、可以执行update语句、可以执行delete语句。executeQuery(String sql)执行查询。没有executeDelete方法</p>
+<hr>
+<p>4.下面选项中，属于DriverManager类中包含的方法有getConnection(String url,String user,String pwd)获取与数据库连接registerDriver(Driver driver)注册JDBC驱动</p>
+<hr>
+<p>5.下列有关&lt;c:out&gt;标签的描述中，正确的是value属性用于指定输出的文本内容、default属性用于指定当value属性为null时所输出的默认值</p>
+<hr>
+<p>6.下列有关&lt;c:choose&gt;标签的描述，正确的是：</p>
+<p>A、&lt;c:choose&gt;标签用于指定多个条件选择的祝贺边界</p>
+<p>B、&lt;c:choose&gt;标签必须与&lt;c:when&gt;、&lt;c:otherwise&gt;标签一起使用</p>
+<p>C、&lt;c:choose&gt;标签没有属性</p>
+<p>D、&lt;c:choose&gt;标签体中只能嵌套一个或多个&lt;c:when&gt;标签和零个或一个&lt;c:otherwise&gt;标签</p>
+<hr>
+<h1 id="十四"><a href="#十四" class="headerlink" title="十四"></a>十四</h1><p>1.下列有关&lt;c:catch&gt;标签的描述，正确的是（）</p>
+<p>&lt;c:catch&gt;标签的var属性用于标识&lt;c:catch&gt;标签捕获的异常对象</p>
+<p>&lt;c:catch&gt;标签的var属性值是一个静态的字符串</p>
+<p>不指定var属性，则&lt;c:catch&gt;标签仅捕获异常，不在page域中保存异常对象</p>
+<hr>
+<p>2.&lt;c:if&gt;是用于完成JSP页面中的条件判断的标签</p>
+<hr>
+<p>3.下列有关&lt;c:choose&gt;标签的描述，正确的是（）（单选）</p>
+<p>&lt;c:choose&gt;标签必须与&lt;c:when&gt;、&lt;c:otherwise&gt;标签一起使用</p>
+<p>&lt;c:choose&gt;标签用于指定多个条件选择的组合边界</p>
+<p>&lt;c:choose&gt;标签体中可以只嵌套一个&lt;c:when&gt;标签，而不嵌套&lt;c:otherwise&gt;标签</p>
+<hr>
+<p>4.下列关于简单标签属性设置的描述，错误的是rtexprvalue用于指定属性值的类型。</p>
+<p>解析：type用于指定属性值的类型</p>
+<hr>
+<p>5.合法的EL表达式是${header[“user-agent”]}</p>
+<hr>
+<p>6.下列有关JSTL标签库的描述，正确的是（）</p>
+<p>JSTL标签库是由5个不同功能的标签库共同组成的</p>
+<p>使用JSTL标签可以大大降低JSP页面的复杂度</p>
+<p>II8N是JSTL标签库中的一个国际化&#x2F;格式化标签库</p>
+<p>JSTL标签库并非是由web应用厂商共同制定的，而是由SUN公司制定的</p>
+<hr>
+<h1 id="十五"><a href="#十五" class="headerlink" title="十五"></a>十五</h1><p>1.Filter是过滤器</p>
+<hr>
+<p>2.FilterChain对象中的都Filter()方法用于执行过滤器中放行操作</p>
+<hr>
+<p>3.<url-pattem>&#x2F;*</url-pattem>表示过滤器拦截所有用户请求访问</p>
+<hr>
+<p>4.ServletContext对象被销毁时，将会调用ServletContextListener接口中contextDestroyed()方法</p>
+<hr>
+<p>5.已知web.xml中存在如下配置：</p>
+<pre><code class="html">&lt;session-config&gt;
+    &lt;session-timeout&gt;2&lt;/session-timeout&gt;
+&lt;/session-config&gt;
+</code></pre>
+<p>则空闲状态2分钟后，HTTP Session Listener中将被调用的方法是sessionDestroyed()</p>
+<hr>
+<p>6.setFileSizeMax()用于设置单个上传文件大小</p>
+<hr>
+<p>7.getRcpository()用于获取上传文件的临时文件所保存目录</p>
+<hr>
+<h1 id="十六"><a href="#十六" class="headerlink" title="十六"></a>十六</h1><p>1.JDBC驱动器也称为JDBC驱动程序，它的提供者是数据库厂商</p>
+<hr>
+<p>2.JDBC驱动器实现了JDBC驱动器API，负责与特定的数据库连接，以及处理通信细节。所以JDBC驱动器API是接口，而JDBC驱动器是实现类</p>
+<hr>
+<p>3.executeUpdate(String sql)用于执行SQL中insert、update和delete语句。executeQuery(String sql)执行查询。没有executeDelete方法</p>
+<hr>
+<p>4.PreparedStatement能够执行带参数占位符SQL语句，使用占位符参数，实现预编译</p>
+<hr>
+<p>5.setMinIdle(int minIdle)是用于设置dbcp连接池最小闲置连接数目的方法</p>
+<hr>
+<p>6.getMetaData()用于返回表示数据库元数据的DatabaseMetaData对象createStatement()创建一个Statement对象来将SQl语句发送到数据库</p>
+<hr>
+<p>7.下面关于commons-dbutils与JDBC的关系，描述正确的是：commons-dbutils是一个对JDBC进行简单封装的工具。</p>
+<p>commons-dbutils是Apache公司的，用于封装JDBC相关操作，从而简化了JDBC相关操作。可以不使用连接池，QueryRunner可以执行CRUD等操作</p>
+<hr>
+<p>8.setDriverClassName(String driverClassName)用于设置dbcp连接数据库</p>
+<hr>
+<p>9.页面静态化缺点是可能得到的数据不是数据库中最新的数据</p>
+
+        </div>
+
+        
+            <div class="post-copyright-info">
+                <div class="article-copyright-info-container">
+    <ul>
+        <li>本文标题：概述</li>
+        <li>本文作者：寻踪</li>
+        <li>创建时间：2022-06-14 13:33:51</li>
+        <li>
+            本文链接：https://keep.xpoet.cn/2022/06/14/web/
+        </li>
+        <li>
+            版权声明：本博客所有文章除特别声明外，均采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> 许可协议。转载请注明出处！
+        </li>
+    </ul>
+</div>
+
+            </div>
+        
+
+        
+            <ul class="post-tags-box">
+                
+                    <li class="tag-item">
+                        <a href="/tags/web/">#web</a>&nbsp;
+                    </li>
+                
+            </ul>
+        
+
+        
+            <div class="article-nav">
+                
+                    <div class="article-prev">
+                        <a class="prev"
+                           rel="prev"
+                           href="/2022/06/14/%E6%A6%82%E8%BF%B0/"
+                        >
+                            <span class="left arrow-icon flex-center">
+                              <i class="fas fa-chevron-left"></i>
+                            </span>
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item">概述</span>
+                                <span class="post-nav-item">上一篇</span>
+                            </span>
+                        </a>
+                    </div>
+                
+                
+            </div>
+        
+
+        
+    </div>
+</div>
+
+
+                
+            </div>
+
+        </div>
+
+        <div class="page-main-content-bottom">
+            <footer class="footer">
+    <div class="info-container">
+        <div class="copyright-info info-item">
+            &copy;
+            
+              <span>2020</span>
+              -
+            
+            2022&nbsp;<!--<i class="fas fa-heart icon-animate"></i>&nbsp;--><a href="/">寻踪</a>
+        </div>
+        
+        
+        <!--
+            <div class="theme-info info-item">
+            由 <a target="_blank" href="https://hexo.io">Hexo</a> 驱动&nbsp;|&nbsp;主题&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.4.5</a>
+        </div>
+        -->
+        
+        
+    </div>
+</footer>
+
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="tools-item page-aside-toggle">
+                <i class="fas fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-bottom-side-tools">
+        <div class="side-tools-container">
+    <ul class="side-tools-list">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-expand-width flex-center">
+            <i class="fas fa-arrows-alt-h"></i>
+        </li>
+
+        <li class="tools-item tool-dark-light-toggle flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list">
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+        
+            <li class="tools-item tool-scroll-to-top flex-center">
+                <i class="arrow-up fas fa-arrow-up"></i>
+                <span class="percent"></span>
+            </li>
+        
+    </ul>
+</div>
+
+    </div>
+
+    
+        <aside class="page-aside">
+            <div class="post-toc-wrap">
+    <div class="post-toc">
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%80"><span class="nav-text">一</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BA%8C"><span class="nav-text">二</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%89"><span class="nav-text">三</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%9B%9B"><span class="nav-text">四</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BA%94"><span class="nav-text">五</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%85%AD"><span class="nav-text">六</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%83"><span class="nav-text">七</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%85%AB"><span class="nav-text">八</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B9%9D"><span class="nav-text">九</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8D%81"><span class="nav-text">十</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8D%81%E4%B8%80"><span class="nav-text">十一</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8D%81%E4%BA%8C"><span class="nav-text">十二</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8D%81%E4%B8%89"><span class="nav-text">十三</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8D%81%E5%9B%9B"><span class="nav-text">十四</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8D%81%E4%BA%94"><span class="nav-text">十五</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8D%81%E5%85%AD"><span class="nav-text">十六</span></a></li></ol>
+    </div>
+</div>
+        </aside>
+    
+
+    <div class="image-viewer-container">
+    <img src="">
+</div>
+
+
+    
+
+</main>
+
+
+
+<script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/js/utils.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/js/main.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/js/header-shrink.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/js/back2top.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/js/dark-light-toggle.js"></script>
+
+
+
+
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/js/code-copy.js"></script>
+
+
+
+    <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/js/lazyload.js"></script>
+
+
+<div class="post-scripts">
+    
+        <script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/js/left-side-toggle.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/js/libs/anime.min.js"></script><script src="//cdn.jsdelivr.net/npm/hexo-theme-keep@3.4.5/source/js/toc.js"></script>
+    
+</div>
+
+
+
+</body>
+</html>
